@@ -10,7 +10,10 @@ public class CloudMove : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
+        this.startPos=Vector3.zero;
     }
+    
+    
 
     void Update()
     {

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class CloudMove : MonoBehaviour
@@ -12,8 +13,12 @@ public class CloudMove : MonoBehaviour
         startPos = transform.position;
         this.startPos=Vector3.zero;
     }
-    
-    
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        throw new NotImplementedException();
+    }
+
 
     void Update()
     {
